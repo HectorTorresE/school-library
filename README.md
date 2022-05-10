@@ -1,16 +1,26 @@
-# Ruby Morse Code
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-In this project you will learn how to use a module inside your class. For this you will create a class `MyList` and a module `MyEnumerable`. Your module `MyEnumerable` will implement a subset of the functionality of Enumerable.
+# School Library
 
+A console application for a school library
+
+## Built With
+
+- Ruby
 ## Getting Started
-   
+
+To get a local copy follow these simple example steps.  
 
 1.- Open the terminal window and clone the repository using this command:  
-`git clone https://github.com/HectorTorresE/Ruby_Enumerable.git` 
+`git clone https://github.com/HectorTorresE/school-library.git` 
 
-2.- Inside the `enumerable.rb` file there is a module `MyEnumerable` that will implement a subset of the functionality of Enumerable.
+2.- Change the directory to the school-library directory  
+`cd school-library`  
+3.- Install the project's dependencies by running this command:   
+`bundle install`  
+4.- Run the program using this command:  
+`ruby ./main.rb`  
 
-3.- Inside the `my_list.rb` file there is a class `MyList` that includes Enumerable, is initliazice with an array and has a method to outputs each elemnts of the array.
 
 ## Authors
 
@@ -20,11 +30,6 @@ In this project you will learn how to use a module inside your class. For this y
 - Twitter: [@HectorT](https://twitter.com/HectorT00406915)
 - LinkedIn: [@Hectorjte](https://www.linkedin.com/in/hectorjte/)
 
-👤 **Mengstu Fentaw**
-
-- Github: [@mengiefen](https://github.com/mengiefen)
-- Twitter: [@MengistuFentaw](https://twitter.com/MengistuFentaw)
-- Linkedin: [@mengefen](https://www.linkedin.com/in/mengefen/)
 
 ## 🤝 Contributing
 
@@ -35,13 +40,4 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
