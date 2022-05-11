@@ -12,9 +12,9 @@ class Person < nameable
     super
   end
 
-  attr_reader :id, :rentals
+  attr_reader :id
 
-  attr_accessor :name, :age
+  attr_accessor :name, :age, :rentals
 
   def can_use_services?
     @age >= 18 || parent_permission
