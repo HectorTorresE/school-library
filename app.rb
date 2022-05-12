@@ -19,7 +19,7 @@ class App
   def select_book_from_list
     puts 'Select a book from the following list by number'
     @books.each_with_index do |book, index|
-      puts "#{index}) Title: \"#{book.title}\" Author: #{book.author} "
+      puts "#{index + 1}) Title: \"#{book.title}\" Author: #{book.author} "
     end
     gets.chomp.to_i
   end
@@ -27,7 +27,7 @@ class App
   def select_person_from_list
     puts 'Select a person from the following list by number (not id)'
     @people.each_with_index do |person, index|
-      print "#{index}) #{person.is_a?(Teacher) ? '[Teacher]' : '[Student]'} "
+      print "#{index + 1}) #{person.is_a?(Teacher) ? '[Teacher]' : '[Student]'} "
       puts "Name: #{person.name}, ID: #{person.id}, Age: #{person.age}"
     end
     gets.chomp.to_i

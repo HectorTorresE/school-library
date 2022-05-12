@@ -76,12 +76,12 @@ end
 def create_rental(app)
   return unless app.can_create_rental?
 
-  index_book = app.select_book_from_list
+  index_book = app.select_book_from_list - 1
   if index_book.negative? || index_book >= app.books.length
     puts 'Invalid selection'
     return
   end
-  index_person = app.select_person_from_list
+  index_person = app.select_person_from_list - 1
   if index_person.negative? || index_person >= app.people.length
     puts 'Invalid selection'
     return
