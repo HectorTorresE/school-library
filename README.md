@@ -18,8 +18,8 @@ To get a local copy follow these simple example steps.
 `cd school-library`  
 3.- Install the project's dependencies by running this command:   
 `bundle install`  
-4.- Run the program using this command:  
-`ruby ./main.rb`  
+4.- Run the program using the command  
+`ruby ./main` or if you are using bash `./main`
 
 
 ## Authors
