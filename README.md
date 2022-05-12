@@ -19,7 +19,7 @@ To get a local copy follow these simple example steps.
 3.- Install the project's dependencies by running this command:   
 `bundle install`  
 4.- Run the program using this command:  
-`ruby ./main.rb`  
+`ruby ./main`  
 
 
 ## Authors

@@ -1,7 +1,7 @@
 require './nameable'
 require './rental'
 
-class Person < nameable
+class Person < Nameable
   # Constructor
   def initialize(age, name = 'Unknown', parent_permission: true)
     @id = Random.rand(1..1000)
@@ -9,7 +9,7 @@ class Person < nameable
     @age = age
     @parent_permission = parent_permission
     @rentals = []
-    super
+    super()
   end
 
   attr_reader :id
