@@ -89,7 +89,7 @@ class App
     puts 'Date (yyyy/mm/dd):'
     date = gets.chomp
     if valid_date(date)
-      @library.add_rental(date, index_person, index_book)
+      @library.add_rental(date, index_book, index_person)
       puts 'Rental created successfully'
       return
     end
@@ -140,6 +140,10 @@ class App
     print 'Specialization: '
     specialization = gets.chomp
     [age, name, specialization]
+  end
+
+  def save_data
+    @library.save_data
   end
 
   def run(option)
