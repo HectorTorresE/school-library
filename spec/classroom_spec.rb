@@ -11,7 +11,7 @@ RSpec.describe Classroom do
   end
 
   it 'Add a student to the class' do
-    Student.new(18, classroom, 'FERNANDO')
+    Student.new(18, classroom, 'Fernando')
     expect(classroom.students.length).to eq 1
   end
 
