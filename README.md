@@ -24,6 +24,12 @@ To get a local copy follow these simple example steps.
 
 ## Authors
 
+👤 **Fernando César da Silva**
+
+- GitHub: [@fernando-silvabr66](https://github.com/fernando-silvabr66)
+- Twitter: [@fsilvabr1](https://twitter.com/fsilvabr1)
+- LinkedIn: [https://linkedin.com/in/fernando-silvabr66](https://linkedin.com/in/fernando-silvabr66)   
+
 👤 **Hector Torres**
 
 - GitHub: [@HectorTorres](https://github.com/HectorTorresE)
