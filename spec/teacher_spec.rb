@@ -34,9 +34,4 @@ RSpec.describe Teacher do
   it 'Teacher should be nameable' do
     expect(teacher).to be_a_kind_of(Nameable)
   end
-
-  it 'Using decorators teacher name should be able to be capitalized' do
-    capitalize_decorator = CapitalizeDecorator.new(teacher)
-    expect(capitalize_decorator.correct_name).to be == 'Hector'
-  end
 end
